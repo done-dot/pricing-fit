@@ -1,6 +1,6 @@
 # pricing-fit
 
-A Claude Code skill that guides you from raw event data to a done.finance outcome-based pricing contract in 6 steps.
+A Claude Code skill that guides you from raw event data to an outcome-based monetization model in 6 steps.
 
 ## The CAMP Framework
 
