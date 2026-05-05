@@ -56,7 +56,7 @@ The skill runs a guided conversation in Claude Code:
 In Claude Code, run:
 
 ```
-/plugin marketplace add done-billing/outcome-fit
+/plugin marketplace add https://github.com/done-billing/outcome-fit
 /plugin install outcome-fit@outcome-fit
 /reload-plugins
 ```
