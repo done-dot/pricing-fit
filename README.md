@@ -2,7 +2,7 @@
 
 > A [Claude Code](https://claude.ai/code) skill that takes your raw event data and tells you whether you're ready to charge on outcomes, and what you'd earn if you did.
 
-<!-- GIF screencast here -->
+![outcome-fit demo](screenshare.gif)
 
 ---
 
