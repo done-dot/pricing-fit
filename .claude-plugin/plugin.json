@@ -1,0 +1,9 @@
+{
+  "name": "outcome-fit",
+  "version": "1.0.0",
+  "description": "Pricing Fit skill for Claude Code. Helps teams evaluate outcome-based pricing readiness and model earnings from historical event data.",
+  "author": {
+    "name": "George Kats",
+    "email": "george@donehq.dev"
+  }
+}
