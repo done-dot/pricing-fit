@@ -33,9 +33,9 @@ Each dimension is scored 1–5. Your total determines your phase:
 
 | Score | Phase | What it means |
 |-------|-------|---------------|
-| 4–8 | 🔬 **Measure** | Instrument your product and run outcomes in shadow mode |
-| 9–15 | 🔗 **Attribute** | Analyse confirmed rates, run a pilot with your top customers |
-| 16–20 | 💰 **Price** | You're ready. Set the price and start signing contracts |
+| 4-8 | 🔬 **Measure** | Instrument your product and run outcomes in shadow mode |
+| 9-15 | 🔗 **Attribute** | Analyse confirmed rates, run a pilot with your top customers |
+| 16-20 | 💰 **Price** | You're ready. Set the price and start signing contracts |
 
 ---
 
