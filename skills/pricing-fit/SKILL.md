@@ -56,10 +56,10 @@ Take their natural language answer and translate it silently into a `ConditionNo
 - Single event must happen → `{ "event": "<name>" }`
 - All of these must happen → `{ "op": "AND", "conditions": [...] }`
 - Any one of these counts → `{ "op": "OR", "conditions": [...] }`
-- Event must NOT happen → `{ "op": "NOT", "condition": { "event": "<name>" } }` — note: `condition` is singular, not an array
 - Event must have a specific value → `{ "event": "<name>", "match": <value> }`
 - Event must exceed a number → `{ "event": "<name>", "gte": <number> }`
-- Nesting: AND/OR take `conditions` (array); NOT takes `condition` (single object, never an array)
+
+The API does NOT support NOT operators. If the user's description includes a negative condition (e.g. "no agent assigned", "ticket was not reopened"), tell them: "The API doesn't support negative conditions. To filter out escalated tickets, add a positive signal to your events — for example a `bot_resolved` event that fires when the AI handles it end-to-end." Then proceed with only the positive conditions.
 
 Translate silently and move directly to Step 3. Do NOT show the JSON to the user. Do NOT ask for confirmation. Only ask a clarifying question if the description is genuinely ambiguous (missing key information, not just complex).
 
